@@ -82,11 +82,17 @@ header nav{
 	display:flex;
 	width:90%;
 	justify-content: space-between;
+	
 }
 
 .navLinks a{
 	text-decoration: none;
 	color:lightgray;
+}
+
+.navLinks a:hover{
+	text-decoration: none;
+	color: black;
 }
 
 .header-img{
@@ -108,8 +114,10 @@ header nav{
 }
 
 .info .slogan h1{
+	
 	font-size: 80px;
 	text-align: center;
+	/* line-height: 80%; */
 }
 
 
