@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -63,4 +63,190 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.container{
+	margin: auto;
+	width: 50%;
+
+}
+
+/* Header */
+header nav{
+	display: flex;
+	align-items: center;
+	
+}
+
+.navLinks{
+	display:flex;
+	width:90%;
+	justify-content: space-between;
+}
+
+.navLinks a{
+	text-decoration: none;
+	color:lightgray;
+}
+
+.header-img{
+	width: 50%;
+	display: flex;
+	justify-content: right;
+}
+
+
+
+.header-img
+
+
+
+
+.info .something .slogan{
+	text-align: center;
+	
+}
+
+.info .slogan h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+
+
+
+.getStarted{
+	
+	
+	display: flex;
+	align-content: center;
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px 70px;
+	
+}
+
+/* Main */
+
+hr{
+	margin: 3% 0;
+}
+
+.top{
+	
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: 3% 0;
+}
+
+.top div{
+	width: 45%;
+}
+
+
+.middle-img{
+	width: 100%;
+	object-fit: cover;
+	text-align: center;
+}
+
+.bottom{
+	
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: 3% 0;
+}
+
+.bottom div{
+	width: 30%;
+}
+
+
+
+/* Footer */
+
+footer{
+	margin: 50px 0px 50px 0px;
+	text-align: center;
+}
+
+/* Services */
+
+.services-header-img{
+	object-fit: cover;
+	width:100%;
+	margin: 3% 0;
+}
+
+.services h1{
+	font-size: 30px;
+}
+
+/* Main */
+
+.main-services{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.android,.ios,.web,.marketing,.ux,.design{
+	width: 48%;
+	background-color: lightgray;
+	border: 1px solid black;
+	padding: 2%;
+}
+
+.android p,.ios p,.web p,.marketing p,.ux p,.design p{
+	padding-bottom: 25px;
+}
+
+.design,.ux,.marketing,.web{
+	margin-bottom: 3%;
+}
+
+.learn-btn{
+	border: 1px solid black;
+	text-align:center;
+	font-size: 13px;
+	border-radius: 5px;
+	background-color: white;
+	padding: 5px 35px;
+	margin-bottom: 10px;
+}
+
+.bottom-hr{
+	border: 1.25px solid black;
+}
+
+/* Info */
+
+.info{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 3% 0;
+}
+
+.info-left{
+	width: 46%;
+}
+
+.info p{
+	padding-bottom: 5%;
+}
+
+.info ul li{
+	list-style-position: inside;
+	list-style-type: square;
+	padding: 3% 0;
+}
+
+.info ul li span{
+	position: relative;
+	left: 10px;
+}
